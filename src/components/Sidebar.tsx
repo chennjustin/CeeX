@@ -68,7 +68,7 @@ export default function Sidebar({ isMobileMenuOpen = false, onCloseMobileMenu }:
       >
         {/* Logo */}
         <div className="p-4 flex-shrink-0 border-b border-gray-200 flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-gray-900">my X</h1>
+          <h1 className="text-2xl font-bold text-gray-900">CeeX</h1>
           {isMobileMenuOpen && onCloseMobileMenu && (
             <button
               onClick={onCloseMobileMenu}
@@ -261,7 +261,7 @@ export default function Sidebar({ isMobileMenuOpen = false, onCloseMobileMenu }:
       <aside className="hidden md:flex fixed left-0 top-0 h-screen w-[20%] border-r border-gray-200 bg-white flex-col z-40 overflow-hidden">
         {/* Logo/App Name */}
         <div className="p-4 flex-shrink-0">
-          <h1 className="text-2xl font-bold text-gray-900">my X</h1>
+          <h1 className="text-2xl font-bold text-gray-900">CeeX</h1>
         </div>
 
         {/* Navigation */}

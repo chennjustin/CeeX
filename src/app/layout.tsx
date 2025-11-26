@@ -7,7 +7,7 @@ import { PostModalProvider } from '@/components/PostModalProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'my X',
+  title: 'CeeX',
   description: 'A simplified social app inspired by X',
 }
 
